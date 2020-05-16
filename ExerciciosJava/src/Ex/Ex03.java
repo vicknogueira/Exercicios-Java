@@ -7,7 +7,7 @@ package Ex;
 public class Ex03 {
 	public static void main(String args[]) {
 		
-		for(int i = 233; i < 456; i++) {
+		for(int i = 233; i < 455; i++) {
 			if(i > 300 && i < 400) {
 				if(i % 3 == 0) {
 					System.out.println("De 3 em 3: " + i);
