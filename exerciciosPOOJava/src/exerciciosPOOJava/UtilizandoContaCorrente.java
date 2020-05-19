@@ -43,7 +43,7 @@ public class UtilizandoContaCorrente {
 		System.out.print("\n-----------------------------------\nInforme o valor para " + depositoSaque +  " R$");
 		valor = entrada.nextDouble();
 		
-		// Verificando se o valor é válido e se é depósito ou saque
+		// Verificando se o valor é válido e se é depósito ou saques
 		if(valor > 5) {
 			contaCorrente.setValor(valor);
 			if(depositoSaque == "Saque") {
